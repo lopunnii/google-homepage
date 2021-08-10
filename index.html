@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
 
 <style>
     ul {
@@ -14,15 +18,20 @@
 
     li a {
         display: block;
-        padding: 8px;
+        padding: 10px;
         color: black;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 12px; 
+        cursor: pointer; 
     }
 
     li a:hover {
         text-decoration: underline;
+    }
+
+    li2 a:hover {
+      text-decoration: underline;
     }
 
     li2 {
@@ -36,6 +45,7 @@
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px; 
+        cursor: pointer; 
     }
 
     .image {
@@ -55,9 +65,22 @@
 
     input {
         width: 30%;
-        padding: 8px;
-        margin-top: 2px;
+        padding: 10px 50px;
+        margin-top: 8px;
         margin-bottom: 8px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: 1px solid lightgrey; 
+        outline: none; 
+        background: no-repeat scroll 7px/5% url('https://icon-library.com/images/search-icon-small/search-icon-small-14.jpg');
+    }
+
+    input:hover {
+        box-shadow: 0px 1px 1px 1px lightgrey;
+    }
+
+    button:hover {
+        box-shadow: 0px 0px 1px 1px lightgrey; 
     }
 
     .button {
@@ -89,11 +112,28 @@
       padding: 20px;
     }
 
+    .footer-text-right {
+      display: float;
+      float: right;
+      margin-right: 30px;
+    }
+
+    .md-dark { 
+      color: rgba(0, 0, 0, 0.54); 
+    }
+
 </style>
+</head>
 
 <body>
 
     <ul>
+      <li><span class="material-icons md-dark">
+        account_circle
+        </span></li>
+      <li><span class="material-icons md-dark">
+        apps
+        </span></li>
       <li><a href="images">Images</a></li>
       <li><a href="gmail">Gmail</a></li>
     </ul>
@@ -121,9 +161,11 @@
 
 <div class="footer">
   <ul2>
+    <div class="footer-text-right">
     <li2><a href="settings">Settings</a></li>
     <li2><a href="terms">Terms</a></li>
     <li2><a href="privacy">Privacy</a></li>
+    </div>
     <li2><a href="how search works">How Search works</a></li>
     <li2><a href="business">Business</a></li>
     <li2><a href="advertising">Advertising</a></li>
