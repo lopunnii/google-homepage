@@ -2,9 +2,9 @@ The Odin Project
 
 Google Homepage Project
 
-The Google Homepage Project is my first project using basic HTML and CSS to build the google.com homepage.
+My first project using basic HTML and CSS to build a replica of the google.com homepage.
  
-Self-reflection:
+Self-reflection (11/08/21):
 
 It has been one month since I started learning web development through The Odin Project, and I have now finished the Google homepage project. 
 It felt very daunting at first as I had never made anything with HTML and CSS, and wasn't sure how to even start. 
@@ -20,3 +20,10 @@ The parts I enjoyed the most was adding the little details such as hover effects
 This google homepage project has helped me put into practice the HTML and CSS skills I have learned and I now feel more confident about the basics. I also feel more comfortable with using git and github. I am looking forward to figuring out the next project in web development. Perhaps I will figure out CSS flexbox in a future project. 
 
 Lopunnii 
+
+Update (24/08/21): 
+I got some feedback from the discord server to:
+ -separate my html and  css into two different files
+ -download images to my local and then upload it to Github, so that I am not relying on a site that may not work in the future
+ -make smaller commits instead of making one large commit
+ I implemented these changes and will remember these tips for next time :) 
