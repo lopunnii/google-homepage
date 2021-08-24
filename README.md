@@ -26,4 +26,5 @@ I got some feedback from the discord server to:
 - Separate my html and  css into two different files
 - Download images to my local and then upload it to Github, so that I am not relying on a site that may not work in the future
 - Make smaller commits instead of making one large commit
+
 I implemented these changes and will remember these tips for next time :) 
